@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Inscrivez-vous.</h2>
+
+        <form>
+            <div class="input-group">
+                <label for="user">Nom d'utilisateur</label>
+                <div class="icon-input-container">
+                    <input type="text" id="user" placeholder="3 Caractères minimum" maxlength="24">
+                    <img src="check.svg" alt="" class="icone-verif">
+                    <span class="error-msg">Choisissez un pseudo contenant au moins 3 caractères.</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Entrez votre email</label>
+                <div class="icon-input-container">
+                    <input type="text" id="email" placeholder="Votre email" maxlength="24">
+                    <img src="check.svg" alt="" class="icone-verif">
+                    <span class="error-msg">Rentrez un email valide.</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Mot de passe</label>
+                <div class="icon-input-container">
+                    <input type="password" id="password" placeholder="Votre mot de passe" maxlength="24">
+                    <img src="check.svg" alt="" class="icone-verif">
+                    <span class="pwd-info">Au moins un symbole, un chiffre, ainsi que 6 caractères minimum.</span>
+                </div>
+                    <div class="lines">
+                        <div class="l l1"><span>Faible</span></div>
+                        <div class="l l2"><span>Moyen</span></div>
+                        <div class="l l3"><span>Fort</span></div>
+                    </div>
+            </div>
+
+            <div class="input-group">
+                <label for="pwd-confirmation">Confirmer votre mot de passe</label>
+                <div class="icon-input-container">
+                    <input type="password" id="pwd-confirmation" placeholder="Confirmer votre mot de passe">
+                    <img src="check.svg" alt="" class="icone-verif">
+                </div>
+
+            </div>
+
+            <button type="submit">Création du compte</button>
+        </form>
+    </div>
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

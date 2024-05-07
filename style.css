@@ -1,0 +1,122 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 600px;
+    margin:100px auto;
+    background-color: rgb(41,40,40);
+    padding:30px;
+    color:aliceblue;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+.input-group{
+    margin-top: 40px;
+}
+
+label{
+    font-size: 30px;
+    display: block;
+}
+
+input{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid #f1f1f1;
+    outline: none;
+    padding: 10px 0;
+}
+
+input:focus{
+    box-shadow: 0 1px 0 #f1f1f1;
+}
+
+.icon-input-container{
+    position: relative;
+}
+
+.icone-verif{
+    width: 30px;
+    position:absolute;
+    right: 0;
+    top:0;
+    transform: translate(-50%);
+    display: none;
+}
+
+.error-msg{
+    margin-top: 8px;
+    color: #a20808;
+    font-weight: 400;
+    display: none;
+}
+
+.pwd-info{
+    margin-top: 8px;
+    font-weight: 400;
+    display: block;
+}
+
+.lines{
+    width: 80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.l{
+    background-color: #fff;
+    height: 7px;
+    margin:15px 5px;
+    width: 30%;
+    position:relative;
+}
+
+.l1{
+    background-color: #df8d29;
+}
+
+.l2{
+    background-color: #c1d20b;
+}
+
+.l3{
+    background-color: #038f21cc;
+}
+
+.lines span{
+    position:absolute;
+    left:50%;
+    transform: translate(-50%);
+    top:15px;
+}
+
+form button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 40px auto;
+    display: block;
+    cursor: pointer;
+}
+
+form button:hover{
+    border-radius: 15px;
+}
